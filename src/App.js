@@ -120,7 +120,7 @@ function App() {
       <SortBar onSort={handleSort} />
       <PokemonList pokemon={filteredPokemon} sortCriteria={sortCriteria} />
       <footer>
-        <a href="placeholder">View on GitHub</a>
+        <a href="https://github.com/jmaddox5/Project-3.01">View on GitHub</a>
       </footer>
     </div>
   );
