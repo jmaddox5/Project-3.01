@@ -1,0 +1,21 @@
+.pokemon-card {
+  background: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-card h2 {
+  font-family: "Pokemon", sans-serif;
+  color: #ffcb05;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
